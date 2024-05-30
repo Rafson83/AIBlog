@@ -1,24 +1,43 @@
-body, html {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    height: 100%;
+    box-sizing: border-box;
+    line-height: 1.6;
 }
 
-.parallax-section {
-    height: 100vh;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
+.intro {
+    margin-bottom: 2rem;
 }
 
-.parallax-section h1 {
-    font-size: 4rem;
+.post h3 {
+    margin-top: 0;
 }
-/* Custom styles if needed */
-.card {
-    margin-bottom: 30px;
+
+.post a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .navbar {
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+    margin-right: 2rem;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 1rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
