@@ -6,6 +6,10 @@ body {
     line-height: 1.6;
 }
 
+.bg-user{
+    background-color: #2f054c;
+}
+
 .intro {
     margin-bottom: 2rem;
 }

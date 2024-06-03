@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header class="bg-dark text-white">
+    <header class="bg-dark text-white bg-user">
         <nav class="navbar navbar-expand-md navbar-dark container">
             <a class="navbar-brand" href="#">rafalwielgus.eu</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,13 +18,16 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">O mnie</a>
+                        <a class="nav-link" href="about.html">O mnie</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Moje Publikacje</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Kontakt</a>
@@ -34,23 +37,49 @@
         </nav>
     </header>
     <main class="container mt-5">
-        <section id="home">
-            <div class="intro text-center">
-                <h2>Witaj na moim blogu!</h2>
-                <p>Tu znajdziesz najnowsze artykuły i wpisy.</p>
+        <section id="home ">
+            <div class="intro row">
+                <div class="col-md-8">
+                <h2>Witaj na rafalwielgus.eu!</h2>
+                <p>
+                    Cieszę się, że trafiłeś na mój blog, miejsce, gdzie technologia spotyka się z człowiekim. Razem będziemy zgłebiać swiaty elektroniki, informatyki, orz programowania, a także poznamy człowieka, zakamarki jego psychiki. Poznamy świat małych przedsięwięć i wielik biznesów w kontekście zarządzania i psychologią biznesu. Nazywam się Rafał Wielgus i mam nadzieję, że znajdziesz tu inspirację, wiedzę i praktyczne wskazówki, które pomogą Ci w Twojej zawodowej i osobistej podróży.</p>
+                    
+                  <p> Na blogu dzielę się doświadczeniami oraz najnowszymi trendami ze świata technologii i biznesu. Bez względu na to, czy jesteś pasjonatem elektroniki, programistą, menedżerem, czy po prostu osobą ciekawą nowoczesnych rozwiązań, znajdziesz tutaj treści, które Cię zaciekawią i zainspirują.</p> 
+                    
+                   <p> Zapraszam do eksplorowania artykułów, dyskusji i wspólnego odkrywania fascynującego świata technologii. Czekają tu na Ciebie eksperckie porady, analizy, recenzje, a także refleksje na temat zarządzania i psychologii biznesu.</p>
+                    
+                    <p>Dziękuję, że tu jesteś i życzę owocnej lektury!</p>
+                    
+                   <P> Rafał Wielgus. - autor</p>
+                </div>
+                <div class="col-md-4">
+                        <img class="img-fluid rounded-circle" src="assets/img/rafal_avatar_welcome.png" alt="Awatar Rafała" >
+                </div>
             </div>
         </section>
         <section id="blog" class="mt-5">
             <h2 class="text-center">Ostatnie wpisy</h2>
-            <div class="post bg-light p-3 mb-3 rounded">
-                <h3>Tytuł Wpisu 1</h3>
-                <p>Krótki opis wpisu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet.</p>
-                <a href="#">Czytaj więcej</a>
+            <<div class="post row mb-4">
+                <div class="col-md-4">
+                    <img src="path/to/your/image1.jpg" alt="Grafika do wpisu 1" class="img-fluid rounded">
+                </div>
+                <div class="col-md-8">
+                    <h3>Tytuł Wpisu 1</h3>
+                    <p class="text-muted">Data publikacji: 1 stycznia 2024 | Autor: Rafał Wielgus</p>
+                    <p>Krótki opis wpisu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet.</p>
+                    <a href="#">Czytaj więcej</a>
+                </div>
             </div>
-            <div class="post bg-light p-3 mb-3 rounded">
-                <h3>Tytuł Wpisu 2</h3>
-                <p>Krótki opis wpisu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet.</p>
-                <a href="#">Czytaj więcej</a>
+            <div class="post row mb-4">
+                <div class="col-md-4">
+                    <img src="path/to/your/image1.jpg" alt="Grafika do wpisu 2" class="img-fluid rounded">
+                </div>
+                <div class="col-md-8">
+                    <h3>Tytuł Wpisu 2</h3>
+                    <p class="text-muted">Data publikacji: 1 stycznia 2024 | Autor: Rafał Wielgus</p>
+                    <p>Krótki opis wpisu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet.</p>
+                    <a href="#">Czytaj więcej</a>
+                </div>
             </div>
             <!-- Dodaj więcej artykułów w razie potrzeby -->
         </section>
